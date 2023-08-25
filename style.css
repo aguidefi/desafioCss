@@ -1,0 +1,157 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    border: solid black 1px;
+    height: 100vh;
+
+}
+
+.containerIzq {
+    border: solid #bec1bb 1px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerDer {
+    width: 78%;
+    background-color: #E8EBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    flex-direction: column;
+    color: #1B1F21;
+}
+
+.boton {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton button {
+    padding: 13px 42px;
+    border: none;
+    background-color: #A491D2;
+    color: #FFF;
+    font-weight: 700 thin;
+    cursor: pointer;
+}
+
+.boton button:hover {
+    background-color: #D4DCFF;
+    color: #CDC3E6;
+}
+
+.contactos {
+    border: solid #bec1bb 1px;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.barra_perfil img {
+    margin-right: 10px;
+    border: solid #bec1bb 1px;
+    border-radius: 100%;
+}
+
+.barra_perfil_info {
+    padding: 0px 10px;
+}
+
+.barra_perfil_info_nombre {
+    font-family: 'Roboto';
+}
+
+.barra_perfil_info_estado {
+    font-family: 'Open Sans';
+    font-size: 8px;
+    color: #bec1bb;
+}
+
+.barra {
+    border: solid #bec1bb 1px;
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.barra_perfil {
+    display: flex;
+    width: 80%;
+}
+
+.barra_icono {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra_icono i {
+    padding: 6px;
+    color: #bec1bb;
+}
+
+.contactoCard {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px #bec1bb solid ;
+    padding: 10px;
+}
+
+.contactoCard img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border: solid #bec1bb 1px;
+    border-radius: 100%;
+}
+
+.contactoCard_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactoCard_info_nombre {
+    font-family: 'Roboto';
+}
+
+.contactoCard_info_estado {
+    font-family: 'Open Sans';
+    font-size: small;
+}
+
+.containerDer img {
+    width: 250px;
+    border-radius: 5%;
+    margin-top: 100px;
+}
+
+.containerDer_texto {
+    margin-top: 20px;
+}
+
+.containerDer h1 {
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+
+.containerDer p {
+    font-family: 'Open Sans';
+    text-align: center;
+}
